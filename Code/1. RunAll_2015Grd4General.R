@@ -73,7 +73,7 @@ if (grade == '4') {
 numberOfPVs <- 5                                                       
 
 # Decide wether to create files with intermediate computation results.
-saveIntermediate <- FALSE #TRUE or FALSE
+saveIntermediate <- TRUE #TRUE or FALSE
 
 ###############################################################################
 ###############################################################################
