@@ -54,7 +54,7 @@ for (i in 1:numberOfPVs) {
 if (saveIntermediate == TRUE) {
   for (i in 1:numberOfPVs) {
     write.csv(get(paste0("responseProbsPV", i)),
-              paste0(outputDir, "/", paste0("responseProbsPV", i), ".csv"),
+              paste0(outputDir, "responseProbs_PV", i, "_", newYear, "_Grd", grade, "_", analysisMode, ".csv"),
               row.names = FALSE)
   }
 }
