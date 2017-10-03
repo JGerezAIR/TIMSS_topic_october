@@ -1,0 +1,847 @@
+* G4 2011 Domain
+
+* Encoding: UTF-8.
+* Script created using the IEA IDB Analyzer (Version 3.2.21).
+* Created on 11/10/2016 at 2:16 PM.
+* Press Ctrl+A followed by Ctrl+R to submit this analysis.
+
+
+/*Topic D1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+*include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav'/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_D1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2011_ExpectedPercent_D1".
+
+/*Topic G1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav'/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_G1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2011_ExpectedPercent_G1".
+
+/* Topic G2*/
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_G2/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2011_ExpectedPercent_G2".
+
+/*Topic N1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2011_ExpectedPercent_N1".
+
+/*Topic N2*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N2/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2011_ExpectedPercent_N2".
+
+
+/*Topic N3*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_domain.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N3/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2011_ExpectedPercent_N3".
+
+* G4 2011 General
+
+* Encoding: UTF-8.
+* Script created using the IEA IDB Analyzer (Version 3.2.21).
+* Created on 11/10/2016 at 2:16 PM.
+* Press Ctrl+A followed by Ctrl+R to submit this analysis.
+
+
+/*Topic D1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+*include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav'/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_D1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2011_ExpectedPercent_D1".
+
+/*Topic G1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav'/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_G1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2011_ExpectedPercent_G1".
+
+/* Topic G2*/
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_G2/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2011_ExpectedPercent_G2".
+
+/*Topic N1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2011_ExpectedPercent_N1".
+
+/*Topic N2*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N2/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2011_ExpectedPercent_N2".
+
+
+/*Topic N3*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam5_merged_general.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N3/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2011_ExpectedPercent_N3".
+   
+* G4 2015 Domain
+
+* Encoding: UTF-8.
+* Script created using the IEA IDB Analyzer (Version 3.2.21).
+* Created on 11/10/2016 at 2:16 PM.
+* Press Ctrl+A followed by Ctrl+R to submit this analysis.
+
+
+/*Topic D1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+*include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav'/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_D1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2015_ExpectedPercent_D1".
+
+/*Topic G1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav'/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_G1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2015_ExpectedPercent_G1".
+
+/* Topic G2*/
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_G2/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2015_ExpectedPercent_G2".
+
+/*Topic N1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2015_ExpectedPercent_N1".
+
+/*Topic N2*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N2/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2015_ExpectedPercent_N2".
+
+
+/*Topic N3*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_domain.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N3/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_Domain_2015_ExpectedPercent_N3".
+   
+* G4 2015 General
+
+* Encoding: UTF-8.
+* Script created using the IEA IDB Analyzer (Version 3.2.21).
+* Created on 11/10/2016 at 2:16 PM.
+* Press Ctrl+A followed by Ctrl+R to submit this analysis.
+
+
+/*Topic D1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+*include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav'/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_D1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2015_ExpectedPercent_D1".
+
+/*Topic G1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav'/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_G1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2015_ExpectedPercent_G1".
+
+/* Topic G2*/
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_G2/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2015_ExpectedPercent_G2".
+
+/*Topic N1*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N1/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2015_ExpectedPercent_N1".
+
+/*Topic N2*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N2/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2015_ExpectedPercent_N2".
+
+
+/*Topic N3*/
+
+GET
+  FILE='H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+include file = "C:\MySoftware\IEA\IDBAnalyzerV4\bin\Data\Templates\SPSS_Macros\JB_PV.ieasps".
+
+JB_PV 	 infile="H:\5.2_main\TIMSS\TIMSS topic study\Output\asausam6_merged_general.sav"/
+   cvar=IDCNTRY /
+   rootpv=ExpectedPercent_N3/
+   tailpv=/
+   npv=5/
+   wgt=TOTWGT/
+   nrwgt=150 /
+   rwgt=/
+   jkz=JKZONE/
+   jkr=JKREP/
+   jk2type=FULL/
+   nomiss=Y/
+   method=JRR/
+   kfac=0/
+   shrtcut=N/
+   viewcod=N/
+   ndec=4/
+   clean = Y/
+   strctry = N/
+   graphs=N/
+   intavg=Y/
+   selcrit = /
+   selvar = /
+   outdir="H:\5.2_main\TIMSS\TIMSS topic study\Output\Topic Scores"/
+   outfile="G4_General_2015_ExpectedPercent_N3".
