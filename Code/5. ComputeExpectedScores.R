@@ -122,7 +122,7 @@ for (j in 1:numberOfPVs) {
 
 
 for (i in seq_along(names(traitsByTopics))) {
-  for (j in 1:numberOfPVs){
+  for (j in 1:numberOfPVs) {
     
     
     colNameNmbCorr <- paste(paste0('ExpectedNmbCorr_',names(traitsByTopics)[i],j), sep = ',')
@@ -143,9 +143,9 @@ for (i in seq_along(names(traitsByTopics))) {
 
 # And we save the expected scpres to a .csv, in order to merge it in SPSS
 # with the rest of the student data.
-write.csv(expectedNmbCorr, paste0(outputDir, "/ExpectedNmbCorrGrd", grade, analysisMode, ".csv"),
+write.csv(expectedNmbCorr, paste0(outputDir, "ExpectedNmbCorrGrd", grade, analysisMode, ".csv"),
           row.names = FALSE)
 
-write.csv(expectedPercent, paste0(outputDir, "/ExpectedPercentScoresGrd", grade, analysisMode, ".csv"),
+write.csv(expectedPercent, paste0(outputDir, "ExpectedPercentScoresGrd", grade, analysisMode, ".csv"),
           row.names = FALSE)
 # save(expectedScores, file = paste0(outputDir, "/expectedScores.Rdata"))
