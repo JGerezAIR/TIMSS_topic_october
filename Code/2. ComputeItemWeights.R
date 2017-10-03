@@ -119,5 +119,5 @@ itemData[, reweightedMaxPoints := maxPoints * itemWeight]
 
 # Save it as .csv for if required on first script.
 if (saveIntermediate == TRUE) {
-  write.csv(itemData, paste0(outputDir, "/reweightedItemDataGrd", grade,".csv"), row.names = FALSE)
+  write.csv(itemData, paste0(outputDir, "reweightedItemData_", newYear, "_", "Grd", grade, ".csv"), row.names = FALSE)
 }
