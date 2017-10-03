@@ -34,6 +34,6 @@ if (analysisMode == 'Domain') {
 # Save it as .csv for sharing and as .Rdata to facilitate use in R.
 if (saveIntermediate == TRUE) {
   write.csv(studentData,
-            paste0(outputDir, "studentData.csv"),
+            paste0(outputDir, "studentData_", newYear, "_Grd", grade, "_", analysisMode, ".csv"),
             row.names = FALSE)
 }
