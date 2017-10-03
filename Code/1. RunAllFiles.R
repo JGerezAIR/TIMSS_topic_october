@@ -13,7 +13,7 @@ rm(list = ls())
 
 # Set the directory structure. codeDir, inputDir and outpurDir MUST be
 # sub directories of baseDir.
-baseDir   <- "H:/5.2_main/TIMSS/TIMSS topic study/"
+baseDir   <- "c:/Users/tcalico/Desktop/TIMSS_topic_october/"
 codeDir   <- paste0(baseDir, "Code/")
 inputDir  <- paste0(baseDir, "Input/")
 outputDir <- paste0(baseDir, "Output/")
