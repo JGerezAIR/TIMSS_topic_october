@@ -48,9 +48,9 @@ topicsVarName     <- "Topic"
 
 # Names studentdatafile, itemdatafile, and scaling constants object based on grade and newYear
 
-studentDataFileName  <- "ASAUSAM6.csv"                    # .csv file with student data
-itemDataFileName     <- "T11T15combinedTIMSSG4.csv"       # .csv file with item information data.
-scalingConstantsFile <- "ScalingConstants2011TIMSSG4.csv" # .csv file with scaling data
+studentDataFileName  <- "BSAUSAM6.csv"                    # .csv file with student data
+itemDataFileName     <- "T11T15combinedTIMSSG8.csv"       # .csv file with item information data.
+scalingConstantsFile <- "ScalingConstants2015TIMSSG8.csv" # .csv file with scaling data
 
 # Create a list with the names of the latent traits and the corresponding
 # Topic codes. Necessary to map latent trait estimates to items, and then
