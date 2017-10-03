@@ -42,9 +42,9 @@ for (i in 1:length(traitsByTopics)) {
 
 
 for (i in 1:numberOfPVs) {
-  temp <<-
+  temp <-
     aggregateRP(names(traitsByTopics), i, analysisMode, itemGroups, nrow(studentData))
-  assign(paste0("responseProbsPV", i), temp)
+  assign(paste0("responseProbsPV", i), temp, envir = .GlobalEnv)
 } 
 
 
