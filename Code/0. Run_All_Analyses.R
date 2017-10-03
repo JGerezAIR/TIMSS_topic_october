@@ -1,10 +1,10 @@
 # Run all analyses.
-# This script looks for files starting with "1." and runs them, one by one.
 
-runDir 		 <- "C:/Users/tcalico/Desktop/TIMSS_topic_october/Code/"
-filesToRun <- list.files(path = runDir, pattern = "(^1.+)")
+#runDir 		 <- "C:/Users/tcalico/Desktop/TIMSS_topic_october/Code/"
 
-for (i in seq_along(filesToRun)) {
-	cat(paste0("Running ", filesToRun[i], ".\n"))
-	source(paste0(runDir, filesToRun[i]))
-}
+source("1. Run_2011_Grd4_Domain.R")
+source("1. Run_2011_Grd4_General.R")
+source("1. Run_2015_Grd4_Domain.R")
+source("1. Run_2015_Grd4_General.R")
+source("1. Run_2015_Grd8_Domain.R")
+source("1. Run_2015_Grd8_General.R")
