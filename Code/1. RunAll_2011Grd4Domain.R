@@ -21,6 +21,7 @@ outputDir <- paste0(baseDir, "Output/")
 
 # Load required libraries.
 library(data.table)
+library(stringr)
 
 # For this code to work you need three files: studentdatafile, scalingconstantsfile, and itemdatafile
 
