@@ -16,7 +16,7 @@ for (i in 1:numberOfPVs) {
   # Now, create a temp matrix which will have the response probabilities
   # ordered by item name.
   temp <<- get(name)[, order(colnames(get(name)))]
-  
+
   # Check that the colnames for the response proability matrix are in the same
   # order as the items in the itemData data.table. If not, stop.
   if (all.equal(colnames(temp), itemData[order(itemID), itemID]) == TRUE) {
@@ -143,9 +143,7 @@ for (i in seq_along(names(traitsByTopics))) {
 
 # And we save the expected scpres to a .csv, in order to merge it in SPSS
 # with the rest of the student data.
-write.csv(expectedNmbCorr, paste0(outputDir, "ExpectedNmbCorrGrd", grade, analysisMode, ".csv"),
-          row.names = FALSE)
+write.csv(expectedNmbCorr, paste0(outputDir, "ExpectedNmbCorr_", newYear, "_Grd", grade, "_", analysisMode, ".csv"), row.names = FALSE)
 
-write.csv(expectedPercent, paste0(outputDir, "ExpectedPercentScoresGrd", grade, analysisMode, ".csv"),
-          row.names = FALSE)
+write.csv(expectedPercent, paste0(outputDir, "ExpectedPercentScores_", newYear, "_Grd", grade, "_", analysisMode, ".csv"), row.names = FALSE)
 # save(expectedScores, file = paste0(outputDir, "/expectedScores.Rdata"))
