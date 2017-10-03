@@ -46,7 +46,7 @@ for (i in 1:numberOfPVs) {
     aggregateRP(names(traitsByTopics), i, analysisMode, itemGroups, nrow(studentData))
   assign(paste0("responseProbsPV", i), temp, envir = .GlobalEnv)
 } 
-
+rm(temp)
 
 # Let us save this, once again, as .csv for sharing, and as .Rdata for
 # further computation.
@@ -58,3 +58,4 @@ if (saveIntermediate == TRUE) {
               row.names = FALSE)
   }
 }
+rm(i)
