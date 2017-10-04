@@ -139,7 +139,9 @@ for (i in seq_along(names(traitsByTopics))) {
   }
 }
 
-
+# Finally, merge percent correct scores with minimally necessary student vars
+expectedNmbCorr <- cbind(studentData[, .(IDCNTRY, TOTWGT, JKZONE, JKREP)], expectedNmbCorr)
+expectedPercent <- cbind(studentData[, .(IDCNTRY, TOTWGT, JKZONE, JKREP)], expectedPercent)
 
 # And we save the expected scpres to a .csv, in order to merge it in SPSS
 # with the rest of the student data.
