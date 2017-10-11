@@ -5,7 +5,7 @@ SET DECIMAL DOT.
 
 GET DATA  /TYPE=TXT
   /FILE=
-    "H:\5.2_secondary\TIMSS\TIMSS topic study\TIMSS_topic_october\Output\ExpectedPercentScores_2011_Grd4_Domain.csv"
+    "H:\5.2_secondary\TIMSS\TIMSS topic study\TIMSS_topic_october\Output\ExpectedPercentScores_2015_Grd8_General.csv"
   /ENCODING='UTF8'
   /DELCASE=LINE
   /DELIMITERS=","
@@ -18,11 +18,36 @@ GET DATA  /TYPE=TXT
   TOTWGT AUTO
   JKZONE AUTO
   JKREP AUTO
+  ExpectedPercent_A11 AUTO
+  ExpectedPercent_A12 AUTO
+  ExpectedPercent_A13 AUTO
+  ExpectedPercent_A14 AUTO
+  ExpectedPercent_A15 AUTO
+  ExpectedPercent_A21 AUTO
+  ExpectedPercent_A22 AUTO
+  ExpectedPercent_A23 AUTO
+  ExpectedPercent_A24 AUTO
+  ExpectedPercent_A25 AUTO
+  ExpectedPercent_A31 AUTO
+  ExpectedPercent_A32 AUTO
+  ExpectedPercent_A33 AUTO
+  ExpectedPercent_A34 AUTO
+  ExpectedPercent_A35 AUTO
   ExpectedPercent_D11 AUTO
   ExpectedPercent_D12 AUTO
   ExpectedPercent_D13 AUTO
   ExpectedPercent_D14 AUTO
   ExpectedPercent_D15 AUTO
+  ExpectedPercent_D21 AUTO
+  ExpectedPercent_D22 AUTO
+  ExpectedPercent_D23 AUTO
+  ExpectedPercent_D24 AUTO
+  ExpectedPercent_D25 AUTO
+  ExpectedPercent_D31 AUTO
+  ExpectedPercent_D32 AUTO
+  ExpectedPercent_D33 AUTO
+  ExpectedPercent_D34 AUTO
+  ExpectedPercent_D35 AUTO
   ExpectedPercent_G11 AUTO
   ExpectedPercent_G12 AUTO
   ExpectedPercent_G13 AUTO
@@ -33,6 +58,11 @@ GET DATA  /TYPE=TXT
   ExpectedPercent_G23 AUTO
   ExpectedPercent_G24 AUTO
   ExpectedPercent_G25 AUTO
+  ExpectedPercent_G31 AUTO
+  ExpectedPercent_G32 AUTO
+  ExpectedPercent_G33 AUTO
+  ExpectedPercent_G34 AUTO
+  ExpectedPercent_G35 AUTO
   ExpectedPercent_N11 AUTO
   ExpectedPercent_N12 AUTO
   ExpectedPercent_N13 AUTO

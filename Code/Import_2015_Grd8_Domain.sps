@@ -5,7 +5,7 @@ SET DECIMAL DOT.
 
 GET DATA  /TYPE=TXT
   /FILE=
-    "C:\Users\tcalico\Desktop\TIMSS_topic_october\Output\ExpectedPercentScores_2015_Grd8_Domain.csv"
+    "H:\5.2_secondary\TIMSS\TIMSS topic study\TIMSS_topic_october\Output\ExpectedPercentScores_2015_Grd8_Domain.csv"
   /ENCODING='UTF8'
   /DELCASE=LINE
   /DELIMITERS=","
